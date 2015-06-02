@@ -65,7 +65,7 @@ Lalu untuk menghitung L<sub>22</sub> <br>
 Berikut ini <i>pseudo code</i> untuk menghitung faktor cholesky : <br>
 <pre>
 <b>for</b> j = 1 <b>to</b> n
-	&alpha;<sub>i,j</sub> := &alpha;<sub>i,j</sub>
+	&alpha;<sub>i,j</sub> := sqrt(&alpha;<sub>i,j</sub>)
 	<b>for</b> i = j+i <b>to</b> n
 		&alpha;<sub>i,j</sub> = &alpha;<sub>i,j</sub>/&alpha;<sub>j,j</sub>
 	<b>endfor</b>
